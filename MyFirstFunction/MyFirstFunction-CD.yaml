@@ -1,0 +1,7 @@
+﻿steps:
+- task: AzureFunctionApp@1
+  displayName: 'Azure Function App Deploy: MyFirstFunction Deploy'
+  inputs:
+    azureSubscription: 'Dev (f4a1ab46-ecfe-4834-b0f3-835c8d14e8bb)'
+    appType: functionApp
+    appName: 'ng-int-test-ngdapi-cubefun-func'
